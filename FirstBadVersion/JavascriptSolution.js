@@ -9,7 +9,10 @@ var solution = function(isBadVersion) {
             const piv = Math.floor((right+left)/2);
             if(isBadVersion(piv)){
                 return piv;
-            }if(isBadVersion())
+            }if(isBadVersion()){
+                return -1;
+
+            }
         }
 
        
